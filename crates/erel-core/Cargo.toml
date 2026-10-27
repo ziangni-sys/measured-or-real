@@ -1,0 +1,9 @@
+[package]
+name = "erel-core"
+edition.workspace = true
+version.workspace = true
+
+[lib]
+name = "erel_core"
+
+[dependencies]

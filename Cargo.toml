@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = ["crates/erel-core", "crates/erel-cli"]
+
+[workspace.package]
+edition = "2021"
+version = "0.0.0"
+
+[profile.release]
+debug = false
+lto = "thin"
+codegen-units = 1

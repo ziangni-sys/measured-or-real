@@ -1,0 +1,292 @@
+{
+  "runtime_seconds": 2.0889718999387696,
+  "benchmarks": {
+    "arc": {
+      "n_models": 15,
+      "n_protocols": 2,
+      "n_items": 2365,
+      "n_pairs": 105,
+      "alpha": 0.05,
+      "bootstrap_repetitions": 10000,
+      "seed": 20270734,
+      "reference_weight": 0.5,
+      "weight_range": [
+        0.0,
+        1.0
+      ],
+      "protocol_names": [
+        "zero-shot",
+        "few-shot"
+      ],
+      "critical_value": 3.5125295856592067,
+      "effective_correlation_rank": 28,
+      "min_correlation_eigenvalue": -2.0209930233154637e-14,
+      "active_statistics": 210,
+      "verdict_counts": {
+        "protocol-dependent": 5,
+        "stable-b": 49,
+        "stable-a": 44,
+        "unresolved-mixed": 5,
+        "unresolved": 2
+      },
+      "models": [
+        "Qwen2.5-0.5B-Instruct",
+        "Qwen2-0.5B-Instruct",
+        "Qwen2.5-1.5B-Instruct",
+        "Qwen2-1.5B-Instruct",
+        "Qwen2.5-3B-Instruct",
+        "Qwen2.5-7B-Instruct",
+        "Qwen2-7B-Instruct",
+        "SmolLM2-135M-Instruct",
+        "SmolLM2-360M-Instruct",
+        "SmolLM2-1.7B-Instruct",
+        "Falcon3-1B-Instruct",
+        "Falcon3-3B-Instruct",
+        "Falcon3-7B-Instruct",
+        "Llama-3.2-1B-Instruct",
+        "Llama-3.2-3B-Instruct"
+      ]
+    },
+    "hellaswag": {
+      "n_models": 11,
+      "n_protocols": 2,
+      "n_items": 2365,
+      "n_pairs": 55,
+      "alpha": 0.05,
+      "bootstrap_repetitions": 10000,
+      "seed": 20270735,
+      "reference_weight": 0.5,
+      "weight_range": [
+        0.0,
+        1.0
+      ],
+      "protocol_names": [
+        "zero-shot",
+        "few-shot"
+      ],
+      "critical_value": 3.336063658373172,
+      "effective_correlation_rank": 20,
+      "min_correlation_eigenvalue": -1.0578841521060036e-14,
+      "active_statistics": 110,
+      "verdict_counts": {
+        "unresolved-mixed": 6,
+        "stable-b": 22,
+        "stable-a": 20,
+        "unresolved": 3,
+        "protocol-dependent": 4
+      },
+      "models": [
+        "Qwen2.5-0.5B-Instruct",
+        "Qwen2-0.5B-Instruct",
+        "Qwen2.5-1.5B-Instruct",
+        "Qwen2-1.5B-Instruct",
+        "SmolLM2-135M-Instruct",
+        "SmolLM2-360M-Instruct",
+        "SmolLM2-1.7B-Instruct",
+        "Falcon3-1B-Instruct",
+        "Falcon3-3B-Instruct",
+        "Llama-3.2-1B-Instruct",
+        "Llama-3.2-3B-Instruct"
+      ]
+    },
+    "mmlu": {
+      "n_models": 11,
+      "n_protocols": 2,
+      "n_items": 2365,
+      "n_pairs": 55,
+      "alpha": 0.05,
+      "bootstrap_repetitions": 10000,
+      "seed": 20270736,
+      "reference_weight": 0.5,
+      "weight_range": [
+        0.0,
+        1.0
+      ],
+      "protocol_names": [
+        "zero-shot",
+        "few-shot"
+      ],
+      "critical_value": 3.3440958303500143,
+      "effective_correlation_rank": 20,
+      "min_correlation_eigenvalue": -1.31779548237703e-14,
+      "active_statistics": 110,
+      "verdict_counts": {
+        "unresolved-mixed": 7,
+        "stable-b": 24,
+        "stable-a": 19,
+        "unresolved": 2,
+        "protocol-dependent": 3
+      },
+      "models": [
+        "Qwen2.5-0.5B-Instruct",
+        "Qwen2-0.5B-Instruct",
+        "Qwen2.5-1.5B-Instruct",
+        "Qwen2-1.5B-Instruct",
+        "SmolLM2-135M-Instruct",
+        "SmolLM2-360M-Instruct",
+        "SmolLM2-1.7B-Instruct",
+        "Falcon3-1B-Instruct",
+        "Falcon3-3B-Instruct",
+        "Llama-3.2-1B-Instruct",
+        "Llama-3.2-3B-Instruct"
+      ]
+    },
+    "openbookqa": {
+      "n_models": 11,
+      "n_protocols": 2,
+      "n_items": 2365,
+      "n_pairs": 55,
+      "alpha": 0.05,
+      "bootstrap_repetitions": 10000,
+      "seed": 20270737,
+      "reference_weight": 0.5,
+      "weight_range": [
+        0.0,
+        1.0
+      ],
+      "protocol_names": [
+        "zero-shot",
+        "few-shot"
+      ],
+      "critical_value": 3.380031130513001,
+      "effective_correlation_rank": 20,
+      "min_correlation_eigenvalue": -1.5390552141363034e-14,
+      "active_statistics": 110,
+      "verdict_counts": {
+        "stable-b": 26,
+        "stable-a": 17,
+        "unresolved-mixed": 7,
+        "protocol-dependent": 4,
+        "unresolved": 1
+      },
+      "models": [
+        "Qwen2.5-0.5B-Instruct",
+        "Qwen2-0.5B-Instruct",
+        "Qwen2.5-1.5B-Instruct",
+        "Qwen2-1.5B-Instruct",
+        "SmolLM2-135M-Instruct",
+        "SmolLM2-360M-Instruct",
+        "SmolLM2-1.7B-Instruct",
+        "Falcon3-1B-Instruct",
+        "Falcon3-3B-Instruct",
+        "Llama-3.2-1B-Instruct",
+        "Llama-3.2-3B-Instruct"
+      ]
+    }
+  },
+  "pooled_baselines": {
+    "arc": {
+      "n_models": 15,
+      "n_items": 2365,
+      "n_pairs": 105,
+      "alpha": 0.05,
+      "bootstrap_repetitions": 10000,
+      "seed": 20280734,
+      "protocol_weight": 0.5,
+      "critical_value": 3.335983947840351,
+      "effective_correlation_rank": 14,
+      "min_correlation_eigenvalue": -1.951473992978535e-14,
+      "active_statistics": 105,
+      "resolved_pairs": 100
+    },
+    "hellaswag": {
+      "n_models": 11,
+      "n_items": 2365,
+      "n_pairs": 55,
+      "alpha": 0.05,
+      "bootstrap_repetitions": 10000,
+      "seed": 20280735,
+      "protocol_weight": 0.5,
+      "critical_value": 3.117386449574787,
+      "effective_correlation_rank": 10,
+      "min_correlation_eigenvalue": -7.253468460232854e-15,
+      "active_statistics": 55,
+      "resolved_pairs": 51
+    },
+    "mmlu": {
+      "n_models": 11,
+      "n_items": 2365,
+      "n_pairs": 55,
+      "alpha": 0.05,
+      "bootstrap_repetitions": 10000,
+      "seed": 20280736,
+      "protocol_weight": 0.5,
+      "critical_value": 3.1615232441453407,
+      "effective_correlation_rank": 10,
+      "min_correlation_eigenvalue": -1.2805881313441465e-14,
+      "active_statistics": 55,
+      "resolved_pairs": 51
+    },
+    "openbookqa": {
+      "n_models": 11,
+      "n_items": 2365,
+      "n_pairs": 55,
+      "alpha": 0.05,
+      "bootstrap_repetitions": 10000,
+      "seed": 20280737,
+      "protocol_weight": 0.5,
+      "critical_value": 3.172560029134928,
+      "effective_correlation_rank": 10,
+      "min_correlation_eigenvalue": -5.87732591322399e-15,
+      "active_statistics": 55,
+      "resolved_pairs": 52
+    }
+  },
+  "skipped": {
+    "arc": [],
+    "hellaswag": [
+      {
+        "model": "Qwen2.5-3B-Instruct",
+        "reason": "missing"
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct",
+        "reason": "missing"
+      },
+      {
+        "model": "Qwen2-7B-Instruct",
+        "reason": "missing"
+      },
+      {
+        "model": "Falcon3-7B-Instruct",
+        "reason": "missing"
+      }
+    ],
+    "mmlu": [
+      {
+        "model": "Qwen2.5-3B-Instruct",
+        "reason": "missing"
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct",
+        "reason": "missing"
+      },
+      {
+        "model": "Qwen2-7B-Instruct",
+        "reason": "missing"
+      },
+      {
+        "model": "Falcon3-7B-Instruct",
+        "reason": "missing"
+      }
+    ],
+    "openbookqa": [
+      {
+        "model": "Qwen2.5-3B-Instruct",
+        "reason": "missing"
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct",
+        "reason": "missing"
+      },
+      {
+        "model": "Qwen2-7B-Instruct",
+        "reason": "missing"
+      },
+      {
+        "model": "Falcon3-7B-Instruct",
+        "reason": "missing"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+[package]
+name = "erel-cli"
+edition.workspace = true
+version.workspace = true
+
+[[bin]]
+name = "erel"
+path = "src/main.rs"
+
+[dependencies]
+erel-core = { path = "../erel-core" }

@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+# Rust
+target/
+
+# Figure previews (figscripts write PNGs here by default)
+figures/preview/
+
+# Reproduction outputs
+results/*_reproduced/
+results/algo2_alpha*/
+results/_smoke/
+
+# Downloaded or regenerated inputs
+data/arc/
+data/mmlu/
+data/hellaswag/
+data/openbookqa/
+data/cifar_hf/
+data/cifar100_hf/
+data/cifar10_hf/
+data/gauge_feats*/
+data/cifar100_labels.npy
+data/prune_cifar.json
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Schematic builds in figscripts/schematics/ (the .tex sources are kept)
+figscripts/schematics/*.aux
+figscripts/schematics/*.log
+figscripts/schematics/*.pdf

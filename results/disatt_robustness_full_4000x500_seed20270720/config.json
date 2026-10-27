@@ -1,0 +1,25 @@
+{
+  "script": "scripts/disatt_robustness.py",
+  "seed": 20270720,
+  "repetitions": 4000,
+  "bootstrap_repetitions": 500,
+  "noise_types": [
+    "gaussian",
+    "student_t3",
+    "contaminated"
+  ],
+  "n": 50,
+  "k": 3,
+  "r_true": 0.4,
+  "alpha": 0.1,
+  "rho_grid": [
+    0.1,
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "sigma2_parameterization": "sigma^2 = K * (1 - rho) / rho for K-replicate mean reliability",
+  "bootstrap_denominator_safeguard": "max(u_d, 1e-12) after positive lower bootstrap quantiles",
+  "created_at": "2026-07-20T19:42:39"
+}

@@ -1,0 +1,116 @@
+{
+  "noise_variance": [
+    {
+      "noise": "gaussian",
+      "rho": 0.1,
+      "target_variance": 27.0,
+      "empirical_variance": 27.110474041717264,
+      "relative_error": 0.004091631174713491
+    },
+    {
+      "noise": "student_t3",
+      "rho": 0.1,
+      "target_variance": 27.0,
+      "empirical_variance": 27.284085301376727,
+      "relative_error": 0.010521677828767676
+    },
+    {
+      "noise": "contaminated",
+      "rho": 0.1,
+      "target_variance": 27.0,
+      "empirical_variance": 26.619593554355763,
+      "relative_error": 0.014089127616453216
+    },
+    {
+      "noise": "gaussian",
+      "rho": 0.2,
+      "target_variance": 12.000000000000002,
+      "empirical_variance": 12.023606550670774,
+      "relative_error": 0.0019672125558976754
+    },
+    {
+      "noise": "student_t3",
+      "rho": 0.2,
+      "target_variance": 12.000000000000002,
+      "empirical_variance": 11.910258466120917,
+      "relative_error": 0.0074784611565904165
+    },
+    {
+      "noise": "contaminated",
+      "rho": 0.2,
+      "target_variance": 12.000000000000002,
+      "empirical_variance": 12.17368666091384,
+      "relative_error": 0.01447388840948645
+    },
+    {
+      "noise": "gaussian",
+      "rho": 0.4,
+      "target_variance": 4.499999999999999,
+      "empirical_variance": 4.503528509983231,
+      "relative_error": 0.0007841133296070762
+    },
+    {
+      "noise": "student_t3",
+      "rho": 0.4,
+      "target_variance": 4.499999999999999,
+      "empirical_variance": 4.356134698631912,
+      "relative_error": 0.03197006697068597
+    },
+    {
+      "noise": "contaminated",
+      "rho": 0.4,
+      "target_variance": 4.499999999999999,
+      "empirical_variance": 4.553448656979337,
+      "relative_error": 0.011877479328741777
+    },
+    {
+      "noise": "gaussian",
+      "rho": 0.6,
+      "target_variance": 2.0000000000000004,
+      "empirical_variance": 2.0034497804363474,
+      "relative_error": 0.0017248902181734578
+    },
+    {
+      "noise": "student_t3",
+      "rho": 0.6,
+      "target_variance": 2.0000000000000004,
+      "empirical_variance": 2.1741419235218897,
+      "relative_error": 0.08707096176094463
+    },
+    {
+      "noise": "contaminated",
+      "rho": 0.6,
+      "target_variance": 2.0000000000000004,
+      "empirical_variance": 1.9759462772331013,
+      "relative_error": 0.012026861383449546
+    },
+    {
+      "noise": "gaussian",
+      "rho": 0.8,
+      "target_variance": 0.7499999999999998,
+      "empirical_variance": 0.7524560339515928,
+      "relative_error": 0.003274711935457328
+    },
+    {
+      "noise": "student_t3",
+      "rho": 0.8,
+      "target_variance": 0.7499999999999998,
+      "empirical_variance": 0.738396403633796,
+      "relative_error": 0.015471461821605048
+    },
+    {
+      "noise": "contaminated",
+      "rho": 0.8,
+      "target_variance": 0.7499999999999998,
+      "empirical_variance": 0.7525922857556753,
+      "relative_error": 0.0034563810075673267
+    }
+  ],
+  "gaussian_consistency": {
+    "rho": 0.2,
+    "mean_rho_hat_x": 0.1738829384082673,
+    "expected_mean_rho_hat_x": 0.16595744680851066,
+    "mse_algorithm1": 0.12969680192441288,
+    "mse_clipped_plugin": 0.5348488796890705
+  }
+}

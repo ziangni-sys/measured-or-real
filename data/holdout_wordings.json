@@ -1,0 +1,24 @@
+{
+ "checked": 93,
+ "failures": 1,
+ "fail_pairs": [
+  [
+   "Qwen2.5-0.5B-Instruct",
+   "Llama-3.2-1B-Instruct"
+  ]
+ ],
+ "cfg_flips": [
+  5,
+  744
+ ],
+ "pd_replicated": [
+  5,
+  5
+ ],
+ "wordings": [
+  "You will be given a question with four answer options. Decide which one is correct and reply with its letter alone.",
+  "Below is a quiz item. State the letter of the right answer and nothing more.",
+  "Consider the question and the options, then give exactly one letter (A, B, C, or D) as your answer.",
+  "Identify the correct choice. Your entire response must be a single option letter."
+ ]
+}

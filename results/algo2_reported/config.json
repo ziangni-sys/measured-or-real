@@ -1,0 +1,19 @@
+{
+  "benchmarks": [
+    "arc",
+    "hellaswag",
+    "mmlu",
+    "openbookqa"
+  ],
+  "alpha": 0.05,
+  "bootstrap_repetitions": 10000,
+  "seed": 20270734,
+  "reference_weight": 0.5,
+  "weight_range": [
+    0.0,
+    1.0
+  ],
+  "batch_size": 2048,
+  "input_target": "uniform fixed 4x4 wording/order grid within each protocol",
+  "protocol_weight_definition": "w * zero-shot + (1-w) * few-shot"
+}
